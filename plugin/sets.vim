@@ -14,3 +14,5 @@ set scrolloff=8
 set colorcolumn=80
 set signcolumn=yes
 set background=dark
+set splitbelow
+set splitright
