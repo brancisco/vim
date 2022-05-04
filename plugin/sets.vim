@@ -13,6 +13,10 @@ set incsearch
 set scrolloff=8
 set colorcolumn=80
 set signcolumn=yes
-set background=dark
 set splitbelow
 set splitright
+
+" the following is trying to get italics to work
+set t_ZH=^[[3m
+set t_ZR=^[[23m
+hi Comment cterm=italic

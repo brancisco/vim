@@ -7,4 +7,6 @@ endfun
 augroup BRANCISCO
     autocmd!
     autocmd BufWritePre * :call TrimWhiteSpace()
+    autocmd FileType markdown setlocal spell
+    autocmd Filetype markdown set wrap
 augroup END
